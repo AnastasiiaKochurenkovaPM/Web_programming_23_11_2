@@ -1,0 +1,94 @@
+html{
+    background-color: rgb(235, 234, 255);
+}
+
+body{
+    font-family: monospace;
+    font-size: 10px;
+}
+
+.home{
+    text-align: left;
+}
+
+.content{
+    background-color: rgb(235, 234, 255);
+}
+
+.title_top{
+   background-color: rgb(202, 199, 247);
+   margin-left: 20px;
+   margin-right: 20px;
+    margin-top: 3%;
+    color:black;
+    font-family: Ermilov, sans-serif;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cities{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 5%;
+    margin-right: 10px; */
+    left: 10%;
+}
+
+.line{
+    /* flex-wrap:nowrap; */
+    /* width: calc(100%+16px);*/
+    margin: 2px -2px;
+    margin-left: 140px;
+} 
+
+
+.elem{
+width: 400px;
+/* розташування в рядок горизонтадьно */
+display: inline-block;
+text-align: center;
+margin: 0 5px 5px 0;
+}
+
+.elem p{
+    margin: 0;
+}
+
+.elem img{
+    border:  2px solid rgb(202, 199, 247);
+    width: 100%;
+}
+
+
+h3{
+text-align: center;
+}
+
+a:link{
+    color:rgb(157, 19, 236);
+}
+
+a:hover{
+    color:rgb(120, 0, 189);
+}
+
+a:visited{
+    color:rgb(157, 19, 236);
+}
+
+.footer{
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+    }
+    
+    .footer_row{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    }
+    
