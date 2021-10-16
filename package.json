@@ -11,19 +11,20 @@
     "url": "git+https://github.com/AnastasiiaKochurenkovaPM/Web_programming_23_11_2.git"
   },
   "author": "AnastasiiaKochurenkovaPM",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/AnastasiiaKochurenkovaPM/Web_programming_23_11_2/issues"
   },
   "homepage": "https://github.com/AnastasiiaKochurenkovaPM/Web_programming_23_11_2#readme",
   "devDependencies": {
-    "gulp-gh-pages": "^0.5.4",
     "browser-sync": "^2.26.14",
     "del": "^6.0.0",
+    "deploy": "^1.0.3",
     "gh-pages": "^3.1.0",
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
     "gulp-debug": "^4.0.0",
+    "gulp-gh-pages": "^0.5.4",
     "gulp-htmlmin": "^5.0.1",
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^7.1.0",
