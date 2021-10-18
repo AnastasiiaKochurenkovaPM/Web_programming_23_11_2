@@ -134,6 +134,8 @@ left: 0;
 z-index: 3;
 max-height: 80vh;
     overflow: hidden;
+    background: url(../img/Lvivv.jpg);
+    background-size: cover;
 }
 
 .conteiner{
