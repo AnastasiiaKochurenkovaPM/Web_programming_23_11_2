@@ -1,0 +1,1 @@
+function search_ukraine(){let e=document.getElementById("searchBar").value;e=e.toLowerCase();let t=document.getElementsByClassName("title");for(i=0;i<t.length;i++)t[i].innerHTML.toLowerCase().includes(e)?t[i].style.display="list-item":t[i].style.display="none"}
