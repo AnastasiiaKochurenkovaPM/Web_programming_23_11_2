@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Login in And Registration
+        </title>
+        <link rel="icon" href="../img/icon.png">
+        <link rel="stylesheet" href="../css/singin.css">
+    </head>
+
+    <body>
+       <div class="hero">
+           <div class="form-box">
+               <div class="button-box">
+                   <div class="btm">
+                   <button type="button" class="toggle-btn" onclick="Login()">Log In</button>
+                   <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+                </div>
+               </div>
+               <div class="social-icons">
+                <img src="../img/fb.png">
+                <img src="../img/tw.png">
+                <img src="../img/gp.png">
+            </div>
+            <form id="login" class="input-group">
+              <input id="logggin" type="text" class="input-field" placeholder="User Id" required>
+              <input id="password" type="text" class="input-field" placeholder="Password" required>
+              <input type="checkbox" class="chech-box"><span>Remember Password</span>
+              <button id="press_log" type="submit" class="submit-btn" onclick="login_press()">Log in</button>
+            </form>
+
+
+            <form id="register" class="input-group">
+                <input id="username" type="text" class="input-field" placeholder="User Id" required>
+                <input id="email" type="email" class="input-field" placeholder="Email Id" required>
+                <input type="checkbox" class="chech-box"><span>I agree to the terms & conditions</span>
+                <button type="submit" class="submit-btn" onclick="register_press()">Register</button>
+              </form>
+
+           </div>
+           
+       </div>
+
+       <script type="text/javascript" src="../js/jquery-3.6.0.js"></script>
+
+       <script type="text/javascript" src="../js/register.js"></script>
+
+       
+        
+
+    </body>
+    </html>

@@ -20,11 +20,13 @@
   <div class="wanerr">
     <div class="header">
       <div class="header_section_srch">
-        <img class="search-img" src="img/search.png">
-        <div class="header_item headerlogo">
-          <b>Search in Ukraine</b>
-        </div>
+          <div id="searchBox">
+            <img src="img/search.png" id="icon">
+            <input id="searchBar" name="searchBar" type="text" placeholder="Search in Ukraine">
+          </div>
+
       </div>
+
 
       <div class="header_logo">
         <img class="logo-img" src="img/logo.png">
@@ -38,7 +40,7 @@
 
       <div class="header_section_sgn">
         <div class="header_item headerButton">
-          <img class="sing_img" src="img/sing_in.png">
+          <a href="html/singin.html"><img class="sing_img" src="img/sing_in.png"></a>
         </div>
       </div>
     </div>
@@ -219,6 +221,17 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    var header_section_srch=document.getElementById("searchBox");
+    var icon=document.getElementById("icon");
+    icon.onclick=function(){
+      header_section_srch.classList.toggle("active");
+    }
+  </script>
+
+  <script  type="text/javascript" src="/js/jquery-3.6.0.js"></script>
+  <script  type="text/javascript" src="/js/search.js"></script>
 
 </body>
 

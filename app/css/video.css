@@ -1,0 +1,85 @@
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #f3c794;
+    }
+
+    .castles{
+        height: 21.8rem;
+        background-size: cover;
+        background-position: center;
+        margin-bottom: 0;
+        position: relative;
+        background-image: url(https://orchardinn.com/wp-content/uploads/2015/01/blue-ridge-mountains-sunrise-in-north-carolina-1500x609.jpg);
+    }
+    
+    
+    a:link{
+        color: rgb(255, 255, 255); 
+        text-decoration:#e9fafa;
+    }
+
+    section{
+        display: block;
+        padding: 1.5rem 0;
+        background-color:#f3c794;
+    }
+
+    .title h1{
+        font-size: 3.5rem;
+        width: 100%;
+        text-align: center;
+        font-family: Italiano,sans-serif;
+        line-height: 1;
+        margin-top: 2%;
+        margin-bottom: 1%;
+        font-weight: 700;
+    }
+
+.text1 p{
+    font-size: 1.7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #2d2a26;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.text2 p{
+    font-size: 1.7rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #2d2a26;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7%;
+}
+
+iframe{
+    margin-top: 3%;
+    margin-left: 28%;
+    margin-right: 25%;
+}
+
+
+
+
+
+
+.footer{
+    background-color: rgb(255, 247, 220);
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+ }
+
+.footer_row{
+display: flex;
+height: 65px;
+justify-content: center;
+align-items: center;
+}
