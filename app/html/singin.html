@@ -17,7 +17,12 @@
                 </div>
                </div>
                <div class="social-icons">
-                <img src="../img/fb.png">
+
+                <fb:login-button 
+  scope="public_profile,email, user_birthday"
+  onlogin="checkLoginState();">
+</fb:login-button>
+                <button type="../img/fb.png" onlogin="checkLoginState();"></button>
                 <img src="../img/tw.png">
                 <img src="../img/gp.png">
             </div>
@@ -44,7 +49,47 @@
 
        <script type="text/javascript" src="../js/register.js"></script>
 
-       
+       <script>
+
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId            : '2762365607401939',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v12.0'
+          });
+               FB.getLoginStatus(function(response) {
+                  statusChangeCallback(response);
+                });
+        };        
+
+        (function(d, s, id){
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) {return;}
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));
+
+
+          function statusChangeCallback(response){
+            if(response.status === 'connected'){
+              console.log('Logged in and authenticated')
+            } else{
+              console.log('Not authenticated')
+            }
+
+          }
+
+          function checkLoginState() {
+              FB.getLoginStatus(function(response) {
+                statusChangeCallback(response);
+              });
+          }
+
+
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
         
 
     </body>

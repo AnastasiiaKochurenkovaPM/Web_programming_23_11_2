@@ -150,8 +150,7 @@ height: auto;
     padding-bottom: 56.25%;
     position: relative;
     align-items: center;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 .media{
@@ -162,20 +161,21 @@ height: auto;
 }
 
 .bestTravel{
-background-position: relative;
-background-repeat: no-repeat;
-top: 0;
-left: 0;
-z-index: 3;
-max-height: 80vh;
+    background-position: relative;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    margin: 0;
+    max-height: 80vh;
     overflow: hidden;
-    background: url(../img/Lvivv.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(https://kidpassage.com/images/publications/lvov-iyune-otdyh-pogoda/lvov-iyune-otdyh-pogoda-photo1_626793382.jpg);
     background-size: cover;
 }
 
 .conteiner{
     max-width: 100%;
-    margin: 0px auto;
+    margin: 0;
 }
 
 
@@ -215,6 +215,7 @@ padding: 1.5rem 0;
     background-color: rgb(207, 204, 204);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
 }
 
 .container{
