@@ -52,14 +52,21 @@
     transition: .5s;
 }
 
-.social-icons{
-     margin: 30px auto;
-     text-align: center;
+button{
+    cursor: pointer;
 }
+
+.social-icons{
+     margin-top: 50px;
+     text-align: center;
+     margin-left: 150px;
+     margin-bottom: 0;
+}
+
 
 .social-icons img{
     width: 30px;
-    margin: 0 12px;
+    margin-top: 0;
     box-shadow: 0 0 20px 0 #7f7f7f3d;
     cursor: pointer;
     border-radius: 50%;

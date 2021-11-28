@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="uk, en" class="gu_consent">
+
+<head>
+  <title id="title">Search</title>
+  <link rel="icon" href="../img/icon.png">
+
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="../css/criem.css">
+  <link href="https://fonts.googleapis.com/css?
+ family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <ol id="search-results"></ol>
+
+    <form action="/search/" method="GET">
+        <input required type="search" name="q" />
+        <button type="submit">Search</button>
+    </form>
+
+
+
+
+<script src="/lunr-2.3.5.min.js"></script>
+<script src="/search.js"></script>
+
+</body>
+</html>
